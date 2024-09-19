@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAFFC6;
+    color: #D2695E;
+    margin: 0;
+    padding: 0;
+}
+
+.header-background {
+    background-color: #faad81;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.header-img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    background-color: #fff;
+    border: 2px solid #D2695E;
+    padding: 25px;
+    margin: 20px;
+    width: 45%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.column.about-me {
+    order: 1;
+}
+
+.column.portfolio {
+    order: 2;
+}
+
+.column.links {
+    order: 3;
+}
+
+.column.goals {
+    order: 4;
+}
+
+.column h1 {
+    text-align: center;
+    background-color: #fcdbc2; 
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.profile-img {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio-button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #faad81;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.portfolio-button:hover {
+    background-color: #f99870;
+}
+
+.social-link {
+    color: #D2695E;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
