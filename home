@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Telling Stories with Data '24</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://64.media.tumblr.com/2d6800ecc78932bf06cbff3556a9e38f/tumblr_inline_p94wgq1J601rhwzwl_75sq.png" type="image/png">
+</head>
+<body>
+    <header class="header-background">
+        <img src="https://64.media.tumblr.com/ea606fb7dd69e5075c72637ac377df02/30c501c1fd2b2888-4b/s640x960/7cb40eaca5d63154bcc6d32c63cf133928c31c78.jpg" alt="Header Image" class="header-img">
+    </header>
+
+    <div class="container">
+        <div class="column about-me">
+            <h1>A B O U T</h1>
+            <img src="https://64.media.tumblr.com/1434abd3850f5339ee0383e32934279f/99286a26c9d96fe6-76/s100x200/f1c4dcba95c7422371f3d7d652563feb83993b2e.pnj" alt="Your Name Image" class="profile-img">
+            <ul>
+                <p> Hello! I'll... probably put more text here at some point or another.</p>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/70.gif" width="7" height="7" alt=""> Melida H.</li>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/71.gif" width="7" height="7" alt=""> They/Them</li>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/72.gif" width="7" height="7" alt=""> Arts Management '24 @ CMU Heinz</li>
+            </ul>
+        </div>
+
+        <div class="column portfolio">
+            <h1>P O R T F O L I O</h1>
+            <div class="button-group">
+                <a href="assignment1.html" class="portfolio-button">Assignment 1</a>
+                <a href="assignment2.html" class="portfolio-button">Assignment 2</a>
+                <a href="assignment3.html" class="portfolio-button">Assignment 3</a>
+            </div>
+        </div>
+
+        <div class="column links">
+            <h1>C O N N E C T</h1>
+            <p><img src="https://64.media.tumblr.com/a7902e8f1306df5d0a07a9641898eade/tumblr_inline_nosyuar7Em1ry72eo_75sq.gifv" alt="LinkedIn Icon" width="15" height="15"> 
+                <a href="https://www.linkedin.com/in/melidahernandez/" class="social-link">LinkedIn</a>
+            </p>
+            <p><img src="https://cdn-icons-png.freepik.com/512/2111/2111425.png" alt="GitHub Icon" width="15" height="15"> 
+                <a href="https://github.com/Loafettie" class="social-link">GitHub</a>
+            </p>
+        </div>
+
+        <div class="column goals">
+            <h1>G O A L S</h1>
+            <ul>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/70.gif" width="7" height="7" alt=""> Enhance my skills in data visualization! Also, learn how data visualization(s) can be made more <i>inclusive</i> and <i>accessible</i>.</i></i></li>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/71.gif" width="7" height="7" alt=""> Gain a foundational understanding of Tableau!</li>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/72.gif" width="7" height="7" alt=""> Experiment with new tools and techniques!</li>
+                <br><li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/14.gif" width="7" height="7"> <b>Micro Goals:</b> Figure out how to fix the header, attempt to make an interactive gallery, not need to frankenstein/constantly guess how to do html (AKA remember!)</li>
+                <li><img src="http://i171.photobucket.com/albums/u300/ferny-dust/sozai/bullets/14.gif" width="7" height="7"> <b>After Graduation:</b> I aspire to work within the non-profit arts sector, with a focus on accessibility in arts education.</li></br>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
