@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Project Part 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script type='module' src='https://us-east-1.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+
+    <style>
+        body {
+            background-color: #FAFFC6;
+            font-family: Arial, sans-serif;
+            color: #D2695E;
+        }
+
+        .viz-container {
+            width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            border: 2px solid #D2695E;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .embed-container {
+            width: 100%;
+            height: 600px;
+        }
+
+        .back-button {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .back-button button {
+            padding: 10px 20px;
+            background-color: #faad81;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #D2695E;
+        }
+
+        p {
+            color: #D2695E;
+        }
+
+        .references {
+            margin-top: 20px;
+        }
+
+        .references h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+
+        .references ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .references li {
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 90%;
+            border: 2px solid #D2695E;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="header-background">
+        <img src="https://64.media.tumblr.com/ea606fb7dd69e5075c72637ac377df02/30c501c1fd2b2888-4b/s640x960/7cb40eaca5d63154bcc6d32c63cf133928c31c78.jpg" alt="Header Image" class="header-img">
+    </header>
+
+    <h1>Project Outline</h1>
+
+    <div class="viz-container">
+        <h2>High-Level Summary</h2>
+        <p>Food scarcity in Cuba has been a recurring issue that has fluctuated in severity over the years, with the current crisis being described as being even worse than the "Special Period" (Whitney Jr, “‘Worse than the Special Period.’”). In the last few years, the situation has become increasingly dire, driven by a combination of economic, political, and environmental factors. Economically, Cuba relies heavily on imports, with 70-80% of its food needs sourced from abroad, primarily to support social protection programs (“CUBA: Climate Change Threatens.”). However, Cuba’s limited purchasing power on the international market, compounded by a lack of funds and unpaid loans, has left the country with virtually no international credit. This financial instability is further aggravated by U.S. policies, including Cuba’s designation as a State Sponsor of Terrorism (SSOT), which prevents the country from engaging in transactions involving U.S. dollars (“Cuba Turns to World Food Programme for Milk Supply as Crisis Deepens.”). Additionally, despite government initiatives to boost domestic production, progress is oftentimes hampered by outdated farming technology, particularly in underdeveloped and rural areas of the country (“CUBA: Climate Change Threatens.”). Politically, ongoing trade restrictions and economic policies continue to disrupt the food supply chain, aggravating shortages across the island (“Cuba Sanctions.”). Environmentally, Cuba's vulnerability to climate hazards, including tropical storms, hurricanes, and droughts, has further strained food security (“Cuba: rethinking farming to face the climate crisis.”).</p>
+        <p>The convergence of economic, political, and environmental challenges has compounded Cuba’s food scarcity crisis, pushing the nation into what Cuban authorities refer to as a “war-time economy” (Colomé, “From greater state control to increased cuts.”). As the country grapples with limited access to international credit, restrictive trade policies, and frequent climate disasters, the path forward requires that multiple aspects of the issue be addressed. Ultimately, however, there is a need for international dialogue and advocacy to ease trade restrictions, allowing Cuba to better access global markets and secure essential goods. This situation demands coordinated efforts from both domestic reforms and international support to help Cuba overcome this period of crisis and lay the groundwork for long-term food security.</p>
+    </div>
+
+    <div class="viz-container">
+        <h2>Project Structure</h2>
+        <div class="image-container">
+            <img src="https://64.media.tumblr.com/2e070d4aa8c657baebf326372e72df4d/2cf7cf23fa6b4c5b-45/s1280x1920/47ebe3d952e164dc5d787194482e5f224fd5e829.pnj" alt="Cuba Food Crisis">
+        </div>
+        <p>Cuba’s food crisis is driven by economic, political, and environmental challenges, and threatens cultural traditions. Through international cooperation, sustainable solutions, and community resilience, there can be hope for a more secure future.</p>
+    </div>
+
+    <div class="viz-container">
+        <h2>Initial Sketches</h2>
+        <div class="image-container">
+            <img src="https://64.media.tumblr.com/0aa841ef55f202516c2b89805c10f965/2cf7cf23fa6b4c5b-0b/s2048x3072/381753354d85a6720c1f828da2fbd76c95d7a6fa.pnj" alt="Initial Sketch 1">
+            <img src="https://64.media.tumblr.com/7887aef5145cfc3fd13f315fc65164dc/2cf7cf23fa6b4c5b-81/s2048x3072/a1e18a923e20e5f5003ba0d44b4dba62dff4d136.pnj" alt="Initial Sketch 2">
+        </div>
+    </div>
+
+    <div class="viz-container">
+        <h2>The Data</h2>
+        <ul>
+            <li><strong>Data Source:</strong> “FAOSTAT.” <a href="https://www.fao.org/faostat/en/#country/49">https://www.fao.org/faostat/en/#country/49</a></li>
+            <li><strong>Usage:</strong> Provides statistics on food availability in Cuba, including protein and cereal supplies.</li>
+            <li><strong>Relevance:</strong> Used to analyze food availability trends and understand the challenges in meeting nutritional needs.</li>
+            <br>
+            <li><strong>Data Source:</strong> “Cuba - Food Security and Nutrition Indicators - Humanitarian Data Exchange.” <a href="https://data.humdata.org/dataset/faostat-food-security-indicators-for-cuba">https://data.humdata.org/dataset/faostat-food-security-indicators-for-cuba</a></li>
+            <li><strong>Usage:</strong> Includes food security and nutrition indicators, such as dietary energy supply adequacy.</li>
+            <li><strong>Relevance:</strong> Describes the severity of food scarcity and its impact on public health.</li>
+            <br>
+            <li><strong>Data Source:</strong> BTI 2024. “BTI 2024 Cuba Country Report.” <a href="https://bti-project.org/en/reports/country-report?isocode=CUB&cHash=552ea7fa64179c47fd9322c5819ebe45">https://bti-project.org/en/reports/country-report?isocode=CUB&cHash=552ea7fa64179c47fd9322c5819ebe45</a></li>
+            <li><strong>Usage:</strong> Evaluates Cuba’s political and economic conditions; not so much a complete data set that is easy to pull, but really cool nonetheless.</li>
+            <li><strong>Relevance:</strong> Provides context on systemic barriers that may be affecting food security.</li>
+            <br>
+            <li><strong>Data Source:</strong> “Cuba - Our World in Data.” <a href="https://ourworldindata.org/country/cuba">https://ourworldindata.org/country/cuba</a></li>
+            <li><strong>Usage:</strong> Offers data on agricultural production rates and health changes/trends.</li>
+            <li><strong>Relevance:</strong> Used to compare health trends with agricultural challenges.</li>
+            <br>
+            <li><strong>Data Source:</strong> “U.S. Trade in Goods with Cuba.” <a href="https://www.census.gov/foreign-trade/balance/c2390.html">https://www.census.gov/foreign-trade/balance/c2390.html</a></li>
+            <li><strong>Usage:</strong> Details the trade relationship between the U.S. and Cuba.</li>
+            <li><strong>Relevance:</strong> Illustrates the impact of trade restrictions on Cuba’s access to goods.</li>
+            <br>
+            <li><strong>Data Source:</strong> “IDEA.” <a href="https://idea.usaid.gov/cd/cuba/environment-and-global-climate-change">https://idea.usaid.gov/cd/cuba/environment-and-global-climate-change</a></li>
+            <li><strong>Usage:</strong> Provides information on Cuba’s climate change risks.</li>
+            <li><strong>Relevance:</strong> Shows how environmental factors affect food security and agriculture.</li>
+        </ul>
+        <p><strong>Additional Notes:</strong> I am actively searching for additional datasets that provide insights into Cuba's food security landscape. While the World Bank initially had datasets available for Cuba, they are no longer accessible (for some reason!), so I’m hoping to resolve that issue. These data sources are subject to change!</p>
+    </div>
+
+    <div class="viz-container">
+        <h2>Method and Medium</h2>
+        <p>For the final project, I intend to use Shorthand because of the ability to create a narrative flow via scrolling/effect/etc… (based on what was shown during class!), which matches how I want to present the issue of food scarcity in Cuba. I intend to incorporate original graphics, infographics, and personal photos from Cuba to visually enhance the story and create a personal connection. For data visualization, I will primarily use Tableau to create charts but will also consider other tools like Datawrapper (which I found slightly more accessible!).</p>
+    </div>
+
+    <div class="back-button">
+        <button onclick="window.location.href='https://loafettie.github.io/CMU-MHernandez/'">Back</button>
+    </div>
+
+</body>
+</html>
